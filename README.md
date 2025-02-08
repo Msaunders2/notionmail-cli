@@ -38,6 +38,10 @@ Running the Program
 To start using NotionMail CLI, run the following command:
 node index.js
 
+o suppress deprecation warnings (such as those regarding deprecated Node modules),
+run the app with the NODE_OPTIONS environment variable:
+NODE_OPTIONS="--no-deprecation" node index.js
+
 You'll be prompted to enter details to send or read messages.
 
 References & Resources
